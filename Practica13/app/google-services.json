@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1019187368977",
+    "project_id": "fir-login-87332",
+    "storage_bucket": "fir-login-87332.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019187368977:android:aebb5522e579c734f78db0",
+        "android_client_info": {
+          "package_name": "mx.edu.itson.practica13"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019187368977-am5dk5st91635mr6sbqm43bn70nv2001.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7M9zknZMRs7FLtyTQVqbFaDtKfpMqlrg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019187368977-am5dk5st91635mr6sbqm43bn70nv2001.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
