@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_300"
+    android:orientation="vertical"
+    tools:context=".HistoriaBase">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivRegresarHistoria"
+            android:layout_width="25dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/regresarmorado" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/darker_gray" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:id="@+id/llImagen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imagenLectura"
+                android:layout_width="match_parent"
+                android:layout_height="520dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/imagencuento2"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tvTextoHistoria"
+            android:layout_width="300dp"
+            android:layout_height="140dp"
+            android:layout_alignRight="@+id/llImagen"
+            android:layout_alignBottom="@+id/llImagen"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="70dp"
+
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/rounded_cornerns"
+            android:gravity="center"
+            android:justificationMode="inter_word"
+            android:onClick="onClick"
+            android:padding="20dp"
+            android:text="Despues de tantas horas de camino los dos viajeros por fin encontraron su destino"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnRegresarLectura"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/atras"
+            android:contentDescription="Atras Pagina"
+            app:backgroundTint="@null" />
+
+        <ProgressBar
+            android:id="@+id/pbHistoriaBase"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="270dp"
+            android:layout_height="10dp"
+            android:gravity="center"
+            android:max="6"
+            android:progress="5"
+            android:progressDrawable="@drawable/progress_bar" />
+
+        <Button
+            android:id="@+id/btnSiguienteLectura"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/siguiente"
+            android:contentDescription="Siguiente Pagina"
+            app:backgroundTint="@null" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:paddingStart="180dp">
+
+        <Button
+            android:id="@+id/btnEscucharHistoria"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/audfonos"
+            android:contentDescription="Opciones de Lectura"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/btnConfiguracionHistoria"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/configuracin1"
+            android:contentDescription="Opciones de Configuracion"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/btnDiccionarioHistoria"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/diccionario"
+            android:contentDescription="Diccionario"
+            android:visibility="invisible"
+            app:backgroundTint="@null" />
+    </LinearLayout>
+</LinearLayout>

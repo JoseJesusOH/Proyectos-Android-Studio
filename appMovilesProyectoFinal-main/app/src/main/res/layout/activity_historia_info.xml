@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HistoriaInfo">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/iv_historia_imagen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="50dp"
+                    android:src="@drawable/historiainfo" />
+
+                <ImageView
+                    android:id="@+id/imageView2Regresar2"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/angleleftsolid2" />
+
+                <ImageView
+                    android:id="@+id/imageView3Juego"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignRight="@+id/iv_historia_imagen"
+                    android:layout_alignBottom="@+id/iv_historia_imagen"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="38dp"
+                    android:layout_marginBottom="-36dp"
+                    android:src="@drawable/group26" />
+
+                <ImageView
+
+                    android:id="@+id/imageView4Play"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignRight="@+id/iv_historia_imagen"
+                    android:layout_alignBottom="@+id/iv_historia_imagen"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="183dp"
+                    android:layout_marginEnd="116dp"
+                    android:layout_marginRight="131dp"
+                    android:layout_marginBottom="-37dp"
+                    android:src="@drawable/group27" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_titulo_historia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="-20dp"
+                android:text="Click"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_autor_historia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="Kayla Miller"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_total_paginas_historia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="192 paginas"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp">
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/tv_categoria1"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/round_gray"
+                        android:paddingTop="7dp"
+                        android:text="Ficcion"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/tv_categoria2"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/round_gray"
+                        android:paddingTop="7dp"
+                        android:text="Popular"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/tv_categoria3"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/round_gray"
+                        android:paddingTop="7dp"
+                        android:text="Amistad"
+                        android:textAlignment="center" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/tv_categoria4"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/round_gray"
+                        android:paddingTop="7dp"
+                        android:text="Novela"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/tv_categoria5"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/round_gray"
+                        android:paddingTop="7dp"
+                        android:text="Arte"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/tv_categoria6"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/round_gray"
+                        android:paddingTop="7dp"
+                        android:text="Escolar"
+                        android:textAlignment="center" />
+
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/tv_psinopsis_historia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="30dp"
+                android:justificationMode="inter_word"
+                android:text="Descripción"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

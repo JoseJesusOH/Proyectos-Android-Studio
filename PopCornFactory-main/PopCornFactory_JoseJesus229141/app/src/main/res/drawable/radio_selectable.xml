@@ -5,11 +5,11 @@ android:state_enabled="true"
       android:drawable="@drawable/radio_selected"
   />
     <item
-        android:state_checked="false"
+        android:state_enabled="false"
         android:drawable="@drawable/radio_normal"
         />
     <item
-        android:state_="true"
+        android:state_enabled="true"
         android:drawable="@drawable/radio_disabled"
         />
 </selector>

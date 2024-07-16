@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_degraded"
+    android:orientation="vertical"
+    tools:context=".CrearCuenta">
+
+
+    <ImageView
+        android:id="@+id/ivRegresarCrear"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:background="@drawable/angleleftsolid2"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/tvCrearCuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:padding="8dp"
+        android:text="@string/crea_tu_cuenta"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:fontFamily="@font/nunito_bold"
+        />
+
+
+    <EditText
+        android:id="@+id/etCrearNombre"
+        android:layout_width="246dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/round_gray"
+        android:hint="Usuario"
+        android:padding="10dp"
+        android:textColorHint="@color/gray"
+        android:textSize="18dp"
+        android:fontFamily="@font/nunito_bold" />
+
+    <EditText
+        android:id="@+id/etCrearCorreoE"
+        android:layout_width="246dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_gray"
+        android:fontFamily="@font/nunito_bold"
+        android:hint="@string/correo_electronico"
+        android:padding="10dp"
+        android:textColorHint="@color/gray"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/etCrearContrasenia"
+        android:layout_width="246dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_gray"
+        android:hint="@string/contrasena"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColorHint="@color/gray"
+        android:textSize="18dp"
+        android:fontFamily="@font/nunito_bold"/>
+
+    <EditText
+        android:id="@+id/etCrearContraseniaConfirmar"
+        android:layout_width="246dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_gray"
+        android:hint="@string/repetir_contrasena"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColorHint="@color/gray"
+        android:textSize="18dp"
+        android:fontFamily="@font/nunito_bold"/>
+
+    <CheckBox
+        android:id="@+id/cbCrearRecordar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginEnd="82dp"
+        android:layout_marginTop="5dp"
+        android:buttonTint="@color/soft_gray"
+        android:elegantTextHeight="false"
+        android:text="@string/recordar_usuario"
+        android:textColor="@color/soft_gray"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnCrearRegistrarse"
+        android:layout_width="246dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rectangle5"
+        android:text="@string/registrarse"
+        app:backgroundTint="@null"
+        android:textAllCaps="false"
+        android:textSize="18sp"/>
+</LinearLayout>

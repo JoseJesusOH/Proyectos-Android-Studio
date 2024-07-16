@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_degraded"
+    android:orientation="vertical"
+    tools:context=".IniciarSesion">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="244dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/logito"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="45dp"
+        android:layout_marginBottom="30dp"/>
+
+
+    <EditText
+        android:id="@+id/et_usuario_inicio"
+        android:layout_width="300dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:background="@drawable/round_gray"
+        android:hint="@string/correo_electronico"
+        android:paddingStart="30dp"
+        android:textColorHint="@color/gray"
+        android:textSize="21sp"
+        android:fontFamily="@font/nunito_bold"/>
+
+    <EditText
+        android:id="@+id/et_contraseña_inicio"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_gray"
+        android:fontFamily="@font/nunito_bold"
+        android:hint="@string/contrasena"
+        android:inputType="textPassword"
+        android:paddingStart="30dp"
+        android:textColorHint="@color/gray"
+        android:textSize="21sp" />
+
+
+    <TextView
+        android:id="@+id/tvOlvidePass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="60dp"
+        android:fontFamily="@font/nunito_light"
+        android:text="@string/olvidaste_tu_contrasena"
+        android:textColor="@color/yellow_light"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="417dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox_recordatorio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginEnd="60dp"
+        android:buttonTint="@color/soft_gray"
+        android:elegantTextHeight="false"
+        android:text="@string/recordar_usuario"
+        android:textColor="@color/soft_gray"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_iniciar_sesion"
+        android:layout_width="249dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/rectangle4"
+        android:text="@string/iniciar_sesion"
+        app:backgroundTint="@null"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="532dp"
+        android:textAllCaps="false"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/btn_registrarse"
+        android:layout_width="249dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rectangle5"
+        android:text="@string/registrarse"
+        app:backgroundTint="@null"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="614dp"
+        android:textAllCaps="false"
+        android:textSize="15sp"/>
+
+
+
+
+</LinearLayout>

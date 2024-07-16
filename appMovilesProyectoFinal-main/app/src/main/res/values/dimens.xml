@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_height">100dp</dimen>
+    <dimen name="image_heightCatalogo">265dp</dimen>
+    <dimen name="image_widthCatalogo">210dp</dimen>
+    <dimen name="imageTopCatalogo">25dp</dimen>
+    <dimen name="imageTopCatalogo2">-25dp</dimen>
+</resources>

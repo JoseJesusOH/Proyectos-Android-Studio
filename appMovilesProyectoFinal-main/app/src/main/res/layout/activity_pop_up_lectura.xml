@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/purple_btn_200"
+    tools:context=".PopUpLectura">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:text="Tamaño de Texto"
+            android:textColor="@color/light_text"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="18dp"
+            android:src="@drawable/menos_vec"
+            android:layout_gravity="center"/>
+
+
+
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+
+            android:layout_marginStart="30dp"
+            android:text="Aa"
+            android:textColor="@color/blue_light"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/mas_vec"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:text="Color de la Pagina"
+            android:textColor="@color/light_text"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bc1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/menos_vec"
+            android:contentDescription="Color 1"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/bc2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/menos_vec"
+            android:contentDescription="Color 2"
+            app:backgroundTint="@color/black" />
+
+        <Button
+            android:id="@+id/bc3"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/menos_vec"
+            android:contentDescription="Color 3" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:text="Modo de lectura"
+            android:textColor="@color/light_text"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="18dp"
+            android:src="@drawable/flechaderecha"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="28dp"
+            android:src="@drawable/flechaizq"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="25dp"
+            android:src="@drawable/flecha_abajo"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+</LinearLayout>

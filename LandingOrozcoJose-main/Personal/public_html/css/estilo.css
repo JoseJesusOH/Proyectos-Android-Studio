@@ -1,0 +1,35 @@
+body{
+    background-color: darkgray;
+}
+nav{
+    font-size:24px; 
+    color:black;
+}
+div{
+    text-align:center ;
+}
+font{
+    font-size:25px; 
+    color:black;
+}
+p{
+    align-items: center;
+}
+.aficionesSeries{
+    vertical-align:middle;
+     border:1px solid black; 
+     margin: 0px 10px;
+}
+.fotoPerfil{
+    float:left;
+     border:2px solid black; 
+     margin: 0px 10px;
+}
+.logo{
+    vertical-align:middle; 
+    border:1px solid black; 
+    margin: 0px 10px;
+}
+.mapa{
+    border:1px solid black; margin: 0px 10px
+}

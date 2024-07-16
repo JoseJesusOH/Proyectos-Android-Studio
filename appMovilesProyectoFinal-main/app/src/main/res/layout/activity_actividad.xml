@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/round_purple3"
+    android:orientation="vertical"
+    android:scrollbarThumbHorizontal="@android:drawable/presence_online"
+    tools:context=".Actividad">
+
+    <LinearLayout
+        android:layout_width="387dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivCerrarActividad"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/cerrarmorado" />
+
+        <!--
+        <SeekBar
+            style="@android:style/Widget.Material.SeekBar.Discrete"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:max="6"
+            android:progress="2"
+            android:progressBackgroundTint="@color/purple_rnd_300"
+            android:progressTint="@color/purple_rnd_300"
+            android:thumb="@android:drawable/presence_online" />
+-->
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Deletrea la palabra"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <ImageView
+
+        android:id="@+id/ivActividadImg"
+        android:layout_width="409dp"
+        android:layout_height="350dp"
+        android:src="@drawable/game1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-90dp"
+        android:background="@drawable/round_purple2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvPreguntaActividad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="20dp"
+            android:text="¿Qué trasporte usaron Annie y sus amigos para llegar a la ciudad de Redwall?"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_white">
+
+            <TextView
+                android:id="@+id/tvLetraAdivinar1"
+                android:layout_width="50dp"
+                android:layout_height="46dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_green2"
+                android:gravity="center"
+                android:text="T"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/tvLetraAdivinar2"
+                android:layout_width="50dp"
+                android:layout_height="46dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_green2"
+                android:gravity="center"
+                android:text="R"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/tvLetraAdivinar3"
+                android:layout_width="50dp"
+                android:layout_height="46dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_green2"
+                android:gravity="center"
+                android:text="E"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/tvLetraAdivinar4"
+                android:layout_width="50dp"
+                android:layout_height="46dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_green2"
+                android:gravity="center"
+                android:text="N"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/tvLetraAdivinar5"
+                android:layout_width="50dp"
+                android:layout_height="46dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_green2"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/tvLetraAdivinar6"
+                android:layout_width="50dp"
+                android:layout_height="46dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/round_green2"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:visibility="invisible" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/tvLetraSeleccionada1"
+                android:layout_width="50dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/round_button_purple_ch"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="A"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tvLetraSeleccionada2"
+                android:layout_width="50dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/round_button_purple_ch"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="T"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tvLetraSeleccionada3"
+                android:layout_width="50dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/round_button_purple_ch"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="I"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tvLetraSeleccionada4"
+                android:layout_width="50dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/round_button_purple_ch"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="E"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/tvLetraSeleccionada5"
+                android:layout_width="50dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/round_button_purple_ch"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="R"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tvLetraSeleccionada6"
+                android:layout_width="50dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/round_button_purple_ch"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="O"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tvLetraSeleccionada7"
+                android:layout_width="50dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/round_button_purple_ch"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="N"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tvLetraSeleccionada8"
+                android:layout_width="50dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/round_button_purple_ch"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="S"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSiguienteActividad"
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="205dp"
+            android:layout_marginTop="33dp"
+            android:background="@drawable/round_green"
+            android:text="Siguiente >"
+            android:textSize="23sp"
+            app:backgroundTint="@null" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

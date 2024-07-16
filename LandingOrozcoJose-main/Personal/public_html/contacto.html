@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Contact Mobile Applications</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+    </head>
+    <body>  
+        <div >
+            <header>
+                <p><span> </span>
+                    <img src="imagenes/logo.jpg " width="100" height="100" class="logo"/>
+                    <span><font style="font-size:40px; color:black">Contactame o Visitame</font></span>
+                </p>
+            </header>
+            <hr />
+        </div>
+        <div >
+            
+                <nav  >
+                <a >Sections
+                </a> |
+                <a href="index.html">Home</a> |
+                <a href="hobbies.html">Hobbies</a> |
+                <a href="series.html">Series</a> |
+            </nav>
+        </div>
+        <hr />
+        <br/>
+
+        <div style="text-align:center ">
+            <main>
+                <p>
+                <h1>Contact me or visit me you choose</h1>
+                <img src="imagenes/mapa.png " width="200" height="200" class="mapa"/>
+                <p><font style="font-size:25px; color:black">If you wish to contact me, enter the following information:</font></p>
+                <form action ="mailto: jose.orozco@potros.itson.edu.mx?subject=Contacto Sitio Web Estatico"
+                      method=post enctype="text/plain">
+                    <fieldset >
+                        <p>Text input field</p>
+                        <label for="nombreId">Name*: </label>
+                        <input type="text" id="nombreId" name="nombre" size=15 required/>
+                        <br />
+                        <label for="emailId" >E-mail: </label>
+                        <input type="email" id="emailId" name="email" />
+                        <br />
+                        <label for="origenId" >Where did you find out about the site?</label>
+                        <input type="text" id="opcionesID" list="opcionesL" />
+                        <datalist id="opcionesL">
+                            <option value="FA">Facebook</option>
+                            <option   value="CA">Clase APW</option>
+                            <option  value="OT">Otro</option>
+                        </datalist>
+                        <br />
+
+                        <fieldset>
+                            <legend>Are you a student or a teacher?:</legend>
+                            <input type="radio" id="estudiante" name="estudiante" value="estudiante" />
+                            <label for="estudiante" >Student</label>
+                            <br />
+                            <input type="radio" id="profesor" name="profesor" value="profesor" />
+                            <label for="profesor" >Professor</label>
+                            <br />
+                        </fieldset>
+                        <br />
+
+                        <fieldset >
+                            <legend>Would visit the site again:</legend>
+                            <input type="checkbox" id="si" name="SiVisita" 
+                                   value="si" />
+                            <label for="si" >Yes</label>
+                            <br />
+                        </fieldset>
+                        <br />
+                        <fieldset>
+                            <legend>Coments:</legend>
+                            <textarea name="comentario" rows="5" cols="80"></textarea>
+                        </fieldset>
+                        <br />
+                        <div align="center" >
+                            <input type="submit" name="boton" value="Send" />        
+                            <input type="reset" value="Eraser" />
+                        </div>
+                </form>
+                </p>
+            </main>
+        </div>
+        <br><br/>
+        <hr />
+        <br/>
+        <div style="text-align:center ">
+            <footer>
+  <p>Designed by José Jesús Orozco Hernández - Mobile Applications
+ </p>            </footer>
+        </div>
+
+    </body>
+</html>

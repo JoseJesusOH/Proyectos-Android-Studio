@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">APP MOviles</string>
+    <string name="fantasia">Fantasia</string>
+    <string name="inicio">Inicio</string>
+    <string name="buscar">Buscar</string>
+    <string name="biblioteca">Biblioteca</string>
+    <string name="actividades">Actividades de historias</string>
+    <string name="perfil">Perfil</string>
+    <string name="aciertos_regalo">10/10</string>
+    <string name="aciertos_fallida">4/10</string>
+    <string name="nom_perfil">Karla</string>
+    <string name="catalogo">Catálogo</string>
+    <string name="faqCantidadPerfiles">Con TOFI puedes crear hasta 15 perfiles diferente. No olvides elegir un ícono único para cada uno</string>
+    <string name="faqOlvideUsuario">Si no recuerda su usuario por favor comuníquese con soporte, para ofrecerle una posible solución</string>
+    <string name="faqCambiarIcono">En la opcion "Editar perfil" de la pantalla configuración, usted puede cambiar su ícono de perfil</string>
+    <string name="faqSinImagen">Por favor comuníquese con soporte, para ofrecerle una posible solución</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Inicio sesión-->
+    <string name="usuario">Usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="olvidaste_tu_contrasena">¿Olvidaste tu contraseña?</string>
+    <string name="recordar_usuario">Recordar Usuario</string>
+    <string name="iniciar_sesion">Iniciar sesión</string>
+    <string name="registrarse">Registrarse</string>
+
+    <!--Crear cuenta-->
+    <string name="crea_tu_cuenta">Crea tu cuenta</string>
+    <string name="correo_electronico">Correo electrónico</string>
+    <string name="repetir_contrasena">Repetir contraseña</string>
+
+    <!--Configurar perfil-->
+    <string name="configura_tu_perfil">Configura tu perfil</string>
+    <string name="nombre">Nombre</string>
+    <string name="edad">Edad</string>
+    <string name="siguiente">Siguiente</string>
+
+    <!--Temas-->
+    <string name="bienvenido">¡Bienvenido!</string>
+    <string name="elige_temas">Elige tus temas favoritos</string>
+    <string name="listo">Listo</string>
+    <string name="deportes">Deportes</string>
+    <string name="animales">Animales</string>
+    <string name="magia">Magia</string>
+    <string name="videojuegos">Videojuegos</string>
+    <string name="musical">Musical</string>
+    <string name="aventura">Aventura</string>
+
+    <!--Perfiles-->
+    <string name="perfiles">Perfiles</string>
+    <string name="carla">Carla</string>
+    <string name="david">David</string>
+    <string name="eric">Eric</string>
+    <string name="agregar_perfil">Agregar perfil</string>
+
+    <!--Contraseña olvidada-->
+    <string name="perdiste_tu_contrasena">¿Perdiste tu contraseña?</string>
+    <string name="desc_contrasena">¡No te preocupes! Escribe tu correo electronico para recuperarla</string>
+    <string name="checar">Checar</string>
+
+    <string name="hola_user">¡Hola, Hannah23!</string>
+    <string name="nueva_contrasena">Nueva contraseña</string>
+    <string name="restablecer">Restablecer</string>
+
+
+</resources>

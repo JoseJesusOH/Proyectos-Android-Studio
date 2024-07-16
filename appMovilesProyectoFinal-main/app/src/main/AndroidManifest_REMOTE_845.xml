@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.APPMOviles"
+        tools:targetApi="31">
+        <activity
+            android:name=".Splash"
+            android:exported="false" />
+        <activity
+            android:name=".Perfil"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad_Fallida"
+            android:exported="false" />
+        <activity
+            android:name=".Regalo"
+            android:exported="false" />
+        <activity
+            android:name=".BibliotecaBase"
+            android:exported="false" />
+        <activity
+            android:name=".Biblioteca"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriaBase"
+            android:exported="false" />
+        <activity
+            android:name=".MedallaInfo"
+            android:exported="false" />
+        <activity
+            android:name=".androidlarge"
+            android:exported="false" />
+        <activity
+            android:name=".Fantasia"
+            android:exported="false" />
+        <activity
+            android:name=".Buscar"
+            android:exported="false" />
+        <activity
+            android:name=".Configuracion"
+            android:exported="false" />
+        <activity
+            android:name=".Faq"
+            android:exported="false" />
+        <activity
+            android:name=".HistoriaInfo"
+            android:exported="false" />
+        <activity
+            android:name=".Temas"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "82068287170",
+    "project_id": "app-moviles-7710c",
+    "storage_bucket": "app-moviles-7710c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82068287170:android:f1f53c918cbbc43470555b",
+        "android_client_info": {
+          "package_name": "mx.edu.itson.appmoviles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82068287170-tekd46cui3v730g07fj0elsuq96ho6sd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjbUyqLnyFP0yXHqFXE1sPi5zXQdQukjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "82068287170-tekd46cui3v730g07fj0elsuq96ho6sd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

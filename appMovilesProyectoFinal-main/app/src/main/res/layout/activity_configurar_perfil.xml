@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_degraded"
+    android:orientation="vertical"
+    tools:context=".ConfigurarPerfil">
+
+
+    <ImageView
+        android:id="@+id/iv_regresar_configurar_perfil"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/angleleftsolid2"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/tv_configura_perfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/nunito_bold"
+        android:padding="8dp"
+        android:text="@string/configura_tu_perfil"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_white"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/ivAnteriorImgPerfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/angleleftsolid415" />
+
+        <ImageView
+            android:id="@+id/ivImagenPerfil"
+            android:layout_width="225dp"
+            android:layout_height="225dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="40dp"
+            android:src="@drawable/perfilfull2" />
+
+        <ImageView
+            android:id="@+id/ivSiguienteImgPerfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="40dp"
+            android:src="@drawable/angleleftsolid416" />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/et_configura_nombre"
+        android:layout_width="252dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/round_gray"
+        android:fontFamily="@font/nunito_bold"
+        android:hint="@string/nombre"
+        android:padding="10dp"
+        android:textColorHint="@color/gray"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_edad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/nunito_regular"
+        android:padding="8dp"
+        android:text="@string/edad"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivMenosEdad"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="30dp"
+            android:src="@drawable/menos_vec" />
+
+        <TextView
+            android:id="@+id/tv_configurar_edad"
+            android:layout_width="54dp"
+            android:layout_height="59dp"
+            android:background="@drawable/round_gray"
+            android:fontFamily="@font/nunito_bold"
+            android:gravity="center"
+            android:text="12"
+            android:textAlignment="center"
+            android:textColorHint="@color/deep_gray"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/ivMasEdad"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/ms" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnSiguienteConfiPerfil"
+        android:layout_width="246dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/rectangle5"
+        android:text="@string/siguiente"
+        android:textAllCaps="false"
+        app:backgroundTint="@null" />
+
+
+</LinearLayout>

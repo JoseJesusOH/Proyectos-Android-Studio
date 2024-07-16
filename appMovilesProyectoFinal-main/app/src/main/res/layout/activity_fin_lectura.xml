@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FinLectura">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/ivRegresarFaq"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/cerrarmorado"
+            android:padding="8dp"/>
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="40dp"
+        >
+
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fantastico"
+            android:background="@color/design_default_color_on_primary"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:padding="8dp"/>
+        <TextView
+            android:id="@+id/txtSubtitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terminaste la Lectura"
+            android:background="@color/design_default_color_on_primary"
+            android:textSize="24sp"
+
+            android:textAlignment="center"
+           />
+        <ImageView
+            android:id="@+id/ivFinLectura"
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:background="@drawable/celebrar"
+            android:padding="8dp"/>
+        <TextView
+            android:id="@+id/txtSubtituloDos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Listo para Practicar lo que aprendiste"
+            android:background="@color/design_default_color_on_primary"
+            android:textSize="20sp"
+
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnestoyListo"
+        app:backgroundTint="@null"
+        android:layout_width="259dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:background="@drawable/round_button_green"
+        android:text="Estoy Listo" />
+    <Button
+        android:id="@+id/btnAhoraNo"
+        app:backgroundTint="@null"
+        android:layout_marginTop="30dp"
+        android:layout_width="259dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:background="@drawable/round_gray"
+        android:text="Ahora no" />
+</LinearLayout>

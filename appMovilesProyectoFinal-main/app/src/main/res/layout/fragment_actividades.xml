@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FragmentActividades">
+
+
+    <TextView
+        android:id="@+id/txtTituloActividades"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_on_primary"
+        android:padding="8dp"
+        android:text="@string/actividades"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/gvActividadesHistoria"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:layout_margin="5dp"
+        android:numColumns="2"
+        android:orientation="horizontal"
+        android:stretchMode="columnWidth" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Por categorías"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+
+            <GridView
+                android:id="@+id/gvPorCategoria"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:numColumns="1"
+                android:paddingStart="20dp">
+
+            </GridView>
+
+
+
+
+
+</LinearLayout>

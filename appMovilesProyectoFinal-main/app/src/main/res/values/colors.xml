@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_300">#8363CC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="brand_color">#6200EE</color>
+    <color name="brand_color_dark">#3700B3</color>
+    <color name="blue_light">#C0DCF1</color>
+    <color name="blue">#4799D6</color>
+    <color name="dark_blue">#2E4FA5</color>
+    <color name="secondary_color">#03DAC6</color>
+    <color name="secondary_color_dark">#018786</color>
+    <color name="light_text">#FFFFFF</color>
+    <color name="dark_text">#222222</color>
+    <color name="red_app">#FF616D</color>
+    <color name="green_btn_200">#83CEB3</color>
+    <color name="green_btn_300">#7ACCAE</color>
+    <color name="green_btn_500">#267C5D</color>
+    <color name="purple_btn_200">#8B82D3</color>
+    <color name="purple_btn_300">#8881C9</color>
+    <color name="purple_btn_500">#4E2F85</color>
+    <color name="purple_rnd_200">#9085C8</color>
+    <color name="purple_rnd_300">#706897</color>
+    <color name="text_purple_dark">#484463</color>
+    <color name="yellow_dark">#C3A840</color>
+    <color name="yellow_light">#FFEBA1</color>
+    <color name="gray">#7D7C83</color>
+    <color name="deep_gray">#66607E</color>
+    <color name="soft_gray">#DAD9E1</color>
+    <color name="dark_gray">#C5C5C5</color>
+    <color name="baby_purple">#D7D4F3</color>
+
+
+
+</resources>
